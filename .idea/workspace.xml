@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8ead85-a2bb-435b-b880-11a4264d1bbf" name="Changes" comment="" />
+    <list default="true" id="9e8ead85-a2bb-435b-b880-11a4264d1bbf" name="Changes" comment="Initial commit - Playwright Hybrid Framework">
+      <changelist_data name="vaishanavibhujbal9595-automation" email="vaishanavibhujbal9595@gmail.com" automatic="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,38 +21,43 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="vaishanavibhujbal9595-automation &lt;vaishanavibhujbal9595@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3CcZYOC3VrccRjQAILbH5vVWWIu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.playwright-hybrid-framework [clean,test...].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "TestNG./home/yogesh/IdeaProjects/Playwright-Hybrid-Framework/src/test/resources/testng.xml.executor": "Run",
-    "TestNG.PaymentTransferTest.executor": "Run",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/yogesh/IdeaProjects/SeleniumDemo",
-    "onboarding.tips.debug.path": "/home/yogesh/IdeaProjects/Playwright-Hybrid-Framework/src/main/java/org/example/Main.java",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.playwright-hybrid-framework [clean,test...].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;TestNG./home/yogesh/IdeaProjects/Playwright-Hybrid-Framework/src/test/resources/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PaymentTransferTest.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/yogesh/IdeaProjects/SeleniumDemo&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/yogesh/IdeaProjects/Playwright-Hybrid-Framework/src/main/java/org/example/Main.java&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -67,6 +74,11 @@
       <updated>1776686868793</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'main' of https://github.com/vaishanavibhujbal9595-automation/playwright-hybrid-framework&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <MESSAGE value="Initial commit - Playwright Hybrid Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit - Playwright Hybrid Framework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
