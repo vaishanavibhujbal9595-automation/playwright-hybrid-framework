@@ -6,7 +6,7 @@ public class PlaywrightFactory {
     private static ThreadLocal<Playwright> tlPlaywright = new ThreadLocal<>();
     private static ThreadLocal<Browser> tlBrowser = new ThreadLocal<>();
     private static ThreadLocal<BrowserContext> tlContext = new ThreadLocal<>();
-    private static ThreadLocal<Page> tlPage = new ThreadLocal<>();
+    private static ThreadLocal<Page> tdPage = new ThreadLocal<>();
 
     public Page initBrowser(String browserName, boolean headless) {
         tlPlaywright.set(Playwright.create());
@@ -24,19 +24,19 @@ public class PlaywrightFactory {
         }
 
         tlContext.set(tlBrowser.get().newContext(new Browser.NewContextOptions().setViewportSize(1920, 1080)));
-        tlPage.set(tlContext.get().newPage());
-        return tlPage.get();
+        tdPage.set(tlContext.get().newPage());
+        return tdPage.get();
     }
 
     public static Page getPage() {
-        return tlPage.get();
+        return tdPage.get();
     }
 
     public void quitBrowser() {
-        if (tlPage.get() != null) {
-            tlPage.get().context().browser().close();
+        if (tdPage.get() != null) {
+            tdPage.get().context().browser().close();
             tlPlaywright.get().close();
-            tlPage.remove();
+            tdPage.remove();
             tlContext.remove();
             tlBrowser.remove();
             tlPlaywright.remove();
